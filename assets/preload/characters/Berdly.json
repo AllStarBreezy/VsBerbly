@@ -1,0 +1,279 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				0
+			],
+			"anim": "aboutToDie",
+			"fps": 24,
+			"name": "Berdly Aboiut to die",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-112,
+				305
+			],
+			"anim": "dead",
+			"fps": 24,
+			"name": "Berdly Dead",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-104,
+				-4
+			],
+			"anim": "defeat",
+			"fps": 24,
+			"name": "Berdly Defeated Anim",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-123,
+				-41
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Berdly Down",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-123,
+				-46
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Berdly Down Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Berdly Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				320
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Berdly Left",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				320
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Berdly Left Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-95,
+				20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Berdly Right",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-95,
+				23
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Berdly Right Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				162
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Berdly Up",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-130,
+				162
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Berdly Up Alt",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Berdly",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "berdly",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
