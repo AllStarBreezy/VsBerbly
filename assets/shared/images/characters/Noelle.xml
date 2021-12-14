@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Noelle.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Noelle Dodge0000" x="0" y="0" width="334" height="614" frameX="-57" frameY="-94" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0001" x="334" y="0" width="345" height="625" frameX="-52" frameY="-89" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0002" x="679" y="0" width="345" height="625" frameX="-52" frameY="-89" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0003" x="1024" y="0" width="367" height="654" frameX="-41" frameY="-74" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0004" x="1024" y="0" width="367" height="654" frameX="-41" frameY="-74" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0005" x="1391" y="0" width="404" height="720" frameX="-23" frameY="-41" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0006" x="1391" y="0" width="404" height="720" frameX="-23" frameY="-41" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0007" x="1795" y="0" width="450" height="802"/>
+	<SubTexture name="Noelle Dodge0008" x="1795" y="0" width="450" height="802"/>
+	<SubTexture name="Noelle Dodge0009" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0010" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0011" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0012" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0013" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0014" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0015" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0016" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0017" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0018" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0019" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0020" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0021" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0022" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0023" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0024" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0025" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0026" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0027" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0028" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Dodge0029" x="2245" y="0" width="329" height="612" frameX="-66" frameY="-96" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Down0000" x="2574" y="0" width="280" height="499" frameX="0" frameY="-7" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0001" x="2574" y="0" width="280" height="499" frameX="0" frameY="-7" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0002" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0003" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0004" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0005" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0006" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0007" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0008" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0009" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0010" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0011" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0012" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0013" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0014" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0015" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0016" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0017" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0018" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0019" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0020" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0021" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0022" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0023" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0024" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0025" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0026" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0027" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0028" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down0029" x="2854" y="0" width="270" height="506" frameX="-6" frameY="0" frameWidth="280" frameHeight="506"/>
+	<SubTexture name="Noelle Down Miss0000" x="3124" y="0" width="280" height="499" frameX="-5" frameY="-7" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0001" x="3404" y="0" width="290" height="509" frameX="0" frameY="-6" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0002" x="3404" y="0" width="290" height="509" frameX="0" frameY="-6" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0003" x="3404" y="0" width="290" height="509" frameX="0" frameY="0" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0004" x="3404" y="0" width="290" height="509" frameX="0" frameY="0" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0005" x="3404" y="0" width="290" height="509" frameX="0" frameY="-3" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0006" x="3404" y="0" width="290" height="509" frameX="0" frameY="-3" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0007" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0008" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0009" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0010" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0011" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0012" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0013" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0014" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0015" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0016" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0017" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0018" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0019" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0020" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0021" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0022" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0023" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0024" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0025" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0026" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0027" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0028" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0029" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0030" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0031" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0032" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0033" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0034" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0035" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0036" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0037" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0038" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0039" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0040" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0041" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0042" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0043" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0044" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0045" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0046" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0047" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0048" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0049" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0050" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0051" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0052" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0053" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0054" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0055" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0056" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0057" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0058" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Down Miss0059" x="3404" y="0" width="290" height="509" frameX="0" frameY="-2" frameWidth="290" frameHeight="515"/>
+	<SubTexture name="Noelle Hit0000" x="3694" y="0" width="354" height="614" frameX="-25" frameY="-7" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0001" x="0" y="802" width="363" height="625" frameX="-21" frameY="-2" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0002" x="363" y="802" width="359" height="627" frameX="0" frameY="0" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0003" x="363" y="802" width="359" height="627" frameX="0" frameY="0" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0004" x="722" y="802" width="356" height="619" frameX="-50" frameY="-8" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0005" x="722" y="802" width="356" height="619" frameX="-50" frameY="-8" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0006" x="1078" y="802" width="354" height="623" frameX="-18" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0007" x="1078" y="802" width="354" height="623" frameX="-18" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0008" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0009" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0010" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0011" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0012" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0013" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0014" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0015" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0016" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0017" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0018" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0019" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0020" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0021" x="1432" y="802" width="355" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Hit0022" x="1078" y="802" width="354" height="623" frameX="-32" frameY="-4" frameWidth="406" frameHeight="627"/>
+	<SubTexture name="Noelle Idle0000" x="1787" y="802" width="275" height="614" frameX="0" frameY="-19" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0001" x="1787" y="802" width="275" height="614" frameX="0" frameY="-19" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0002" x="2062" y="802" width="269" height="615" frameX="-7" frameY="-18" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0003" x="2062" y="802" width="269" height="615" frameX="-7" frameY="-18" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0004" x="2331" y="802" width="269" height="624" frameX="-8" frameY="-9" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0005" x="2331" y="802" width="269" height="624" frameX="-8" frameY="-9" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0006" x="2600" y="802" width="269" height="633" frameX="-8" frameY="0" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0007" x="2600" y="802" width="269" height="633" frameX="-8" frameY="0" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0008" x="2869" y="802" width="272" height="632" frameX="-5" frameY="-1" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0009" x="2869" y="802" width="272" height="632" frameX="-5" frameY="-1" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0010" x="3141" y="802" width="274" height="632" frameX="-3" frameY="-1" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0011" x="3141" y="802" width="274" height="632" frameX="-3" frameY="-1" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0012" x="3141" y="802" width="274" height="632" frameX="-3" frameY="-1" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Idle0013" x="3141" y="802" width="274" height="632" frameX="-3" frameY="-1" frameWidth="277" frameHeight="633"/>
+	<SubTexture name="Noelle Left0000" x="3415" y="802" width="334" height="614" frameX="0" frameY="0" frameWidth="338" frameHeight="614"/>
+	<SubTexture name="Noelle Left0001" x="3415" y="802" width="334" height="614" frameX="0" frameY="0" frameWidth="338" frameHeight="614"/>
+	<SubTexture name="Noelle Left0002" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0003" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0004" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0005" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0006" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0007" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0008" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0009" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0010" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0011" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0012" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0013" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0014" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0015" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0016" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0017" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0018" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0019" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0020" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0021" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0022" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0023" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0024" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0025" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0026" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0027" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0028" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left0029" x="2245" y="0" width="329" height="612" frameX="-9" frameY="-2" frameWidth="450" frameHeight="802"/>
+	<SubTexture name="Noelle Left Miss0000" x="3749" y="802" width="334" height="614" frameX="-8" frameY="-5" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0001" x="0" y="1435" width="344" height="625" frameX="0" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0002" x="0" y="1435" width="344" height="625" frameX="0" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0003" x="0" y="1435" width="344" height="625" frameX="-5" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0004" x="0" y="1435" width="344" height="625" frameX="-5" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0005" x="0" y="1435" width="344" height="625" frameX="-2" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0006" x="0" y="1435" width="344" height="625" frameX="-2" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0007" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0008" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0009" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0010" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0011" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0012" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0013" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0014" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0015" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0016" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0017" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0018" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0019" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0020" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0021" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0022" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0023" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0024" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0025" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0026" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0027" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0028" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0029" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0030" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0031" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0032" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0033" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0034" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0035" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0036" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0037" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0038" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0039" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0040" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0041" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0042" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0043" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0044" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0045" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0046" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0047" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0048" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0049" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0050" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0051" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0052" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0053" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0054" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0055" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0056" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0057" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0058" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle Left Miss0059" x="0" y="1435" width="344" height="625" frameX="-3" frameY="0" frameWidth="350" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0000" x="810" y="1435" width="456" height="616" frameX="-7" frameY="-4" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle RIght Miss0001" x="344" y="1435" width="466" height="625" frameX="-6" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0002" x="344" y="1435" width="466" height="625" frameX="-6" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0003" x="344" y="1435" width="466" height="625" frameX="0" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0004" x="344" y="1435" width="466" height="625" frameX="0" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0005" x="344" y="1435" width="466" height="625" frameX="-3" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0006" x="344" y="1435" width="466" height="625" frameX="-3" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0007" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0008" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0009" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0010" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0011" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0012" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0013" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0014" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0015" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0016" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0017" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0018" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0019" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0020" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0021" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0022" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0023" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0024" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0025" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0026" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0027" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0028" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0029" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0030" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0031" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0032" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0033" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0034" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0035" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0036" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0037" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0038" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0039" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0040" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0041" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0042" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0043" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0044" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0045" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0046" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0047" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0048" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0049" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0050" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0051" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0052" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0053" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0054" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0055" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0056" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0057" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0058" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle RIght Miss0059" x="344" y="1435" width="466" height="625" frameX="-2" frameY="0" frameWidth="472" frameHeight="625"/>
+	<SubTexture name="Noelle Right0000" x="810" y="1435" width="456" height="616" frameX="-11" frameY="-3" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0001" x="810" y="1435" width="456" height="616" frameX="-11" frameY="-3" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0002" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0003" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0004" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0005" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0006" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0007" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0008" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0009" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0010" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0011" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0012" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0013" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0014" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0015" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0016" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0017" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0018" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0019" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0020" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0021" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0022" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0023" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0024" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0025" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0026" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0027" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0028" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Right0029" x="1266" y="1435" width="445" height="619" frameX="0" frameY="0" frameWidth="467" frameHeight="619"/>
+	<SubTexture name="Noelle Snowgrave0000" x="1711" y="1435" width="434" height="632" frameX="-16" frameY="0" frameWidth="450" frameHeight="632"/>
+	<SubTexture name="Noelle Snowgrave0001" x="1711" y="1435" width="434" height="632" frameX="-16" frameY="0" frameWidth="450" frameHeight="632"/>
+	<SubTexture name="Noelle Snowgrave0002" x="2145" y="1435" width="450" height="632"/>
+	<SubTexture name="Noelle Snowgrave0003" x="2595" y="1435" width="401" height="632" frameX="-49" frameY="0" frameWidth="450" frameHeight="632"/>
+	<SubTexture name="Noelle Snowgrave0004" x="2595" y="1435" width="401" height="632" frameX="-49" frameY="0" frameWidth="450" frameHeight="632"/>
+	<SubTexture name="Noelle Snowgrave0005" x="2996" y="1435" width="415" height="632" frameX="-35" frameY="0" frameWidth="450" frameHeight="632"/>
+	<SubTexture name="Noelle Up 0000" x="3411" y="1435" width="404" height="644"/>
+	<SubTexture name="Noelle Up 0001" x="3411" y="1435" width="404" height="644"/>
+	<SubTexture name="Noelle Up 0002" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0003" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0004" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0005" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0006" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0007" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0008" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0009" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0010" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0011" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0012" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0013" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0014" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0015" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0016" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0017" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0018" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0019" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0020" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0021" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0022" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0023" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0024" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0025" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0026" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0027" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0028" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up 0029" x="0" y="2079" width="388" height="640" frameX="-11" frameY="-4" frameWidth="404" frameHeight="644"/>
+	<SubTexture name="Noelle Up Miss0000" x="388" y="2079" width="404" height="644" frameX="-5" frameY="-9" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0001" x="792" y="2079" width="414" height="654" frameX="0" frameY="0" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0002" x="792" y="2079" width="414" height="654" frameX="0" frameY="0" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0003" x="792" y="2079" width="414" height="654" frameX="0" frameY="-6" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0004" x="792" y="2079" width="414" height="654" frameX="0" frameY="-6" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0005" x="792" y="2079" width="414" height="654" frameX="0" frameY="-3" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0006" x="792" y="2079" width="414" height="654" frameX="0" frameY="-3" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0007" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0008" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0009" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0010" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0011" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0012" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0013" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0014" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0015" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0016" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0017" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0018" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0019" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0020" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0021" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0022" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0023" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0024" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0025" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0026" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0027" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0028" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0029" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0030" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0031" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0032" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0033" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0034" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0035" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0036" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0037" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0038" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0039" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0040" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0041" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0042" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0043" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0044" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0045" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0046" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0047" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0048" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0049" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0050" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0051" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0052" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0053" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0054" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0055" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0056" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0057" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0058" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle Up Miss0059" x="792" y="2079" width="414" height="654" frameX="0" frameY="-4" frameWidth="414" frameHeight="660"/>
+	<SubTexture name="Noelle killed him oh f0000" x="1206" y="2079" width="270" height="370" frameX="0" frameY="-7" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0001" x="1206" y="2079" width="270" height="370" frameX="0" frameY="-7" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0002" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0003" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0004" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0005" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0006" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0007" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0008" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0009" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0010" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0011" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0012" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0013" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0014" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0015" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0016" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0017" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0018" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0019" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0020" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0021" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0022" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0023" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0024" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0025" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0026" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0027" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0028" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+	<SubTexture name="Noelle killed him oh f0029" x="1476" y="2079" width="259" height="377" frameX="-5" frameY="0" frameWidth="270" frameHeight="377"/>
+</TextureAtlas>

@@ -1,0 +1,279 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Kris Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				251,
+				-134
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Kris Down Miss ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				256,
+				-136
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Kris Down",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				77,
+				149
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Kris Dodge ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "hit",
+			"fps": 24,
+			"name": "Kris Hit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Kris Left",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				5
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Kris Left Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Kris Right",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				7
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Kris Right Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				92
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Kris Up",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				101
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Kris Up Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				701,
+				230
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Soul Break",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Kris",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

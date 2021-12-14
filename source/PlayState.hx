@@ -663,6 +663,10 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+
+			case 'alley': //mordecai week
+				var bg:BGSprite = new BGSprite('birbBackground/AlleyBG', 1.55, 1.4, 0.9, 0.9);
+				add(bg);
 		}
 
 		if(isPixelStage) {
@@ -680,6 +684,10 @@ class PlayState extends MusicBeatState
 		
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
+		}
+
+		if(curStage == 'alley') {
+			remove(gfGroup);
 		}
 
 		#if LUA_ALLOWED
