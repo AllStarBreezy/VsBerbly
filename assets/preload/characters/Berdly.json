@@ -266,9 +266,9 @@
 	"healthicon": "berdly",
 	"flip_x": false,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		0,
+		255,
+		255
 	],
 	"camera_position": [
 		0,

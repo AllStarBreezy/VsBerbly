@@ -242,7 +242,6 @@ class TitleState extends MusicBeatState
 		Conductor.changeBPM(titleJSON.bpm);
 		persistentUpdate = true;
 
-		var bg:FlxSprite = new FlxSprite('TitleBG');
 		
 
 		
@@ -253,7 +252,6 @@ class TitleState extends MusicBeatState
 		
 		
 		
-		add(bg);
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		
