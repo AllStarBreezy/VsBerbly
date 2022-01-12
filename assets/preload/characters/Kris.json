@@ -263,12 +263,12 @@
 		0,
 		350
 	],
-	"healthicon": "face",
-	"flip_x": false,
+	"healthicon": "citygang",
+	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		0,
+		162,
+		232
 	],
 	"camera_position": [
 		0,

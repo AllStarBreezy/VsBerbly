@@ -277,9 +277,9 @@
 	"healthicon": "face",
 	"flip_x": false,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		255,
+		255,
+		0
 	],
 	"camera_position": [
 		0,

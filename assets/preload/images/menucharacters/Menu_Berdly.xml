@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Berdly.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Berdly Idle0000" x="0" y="0" width="667" height="477" frameX="-7" frameY="-29" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0001" x="0" y="0" width="667" height="477" frameX="-7" frameY="-29" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0002" x="667" y="0" width="672" height="469" frameX="0" frameY="-37" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0003" x="667" y="0" width="672" height="469" frameX="0" frameY="-37" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0004" x="1339" y="0" width="652" height="489" frameX="-18" frameY="-17" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0005" x="1339" y="0" width="652" height="489" frameX="-18" frameY="-17" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0006" x="0" y="489" width="644" height="504" frameX="-26" frameY="-2" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0007" x="0" y="489" width="644" height="504" frameX="-26" frameY="-2" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0008" x="644" y="489" width="647" height="506" frameX="-23" frameY="0" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0009" x="644" y="489" width="647" height="506" frameX="-23" frameY="0" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0010" x="644" y="489" width="647" height="506" frameX="-23" frameY="0" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0011" x="644" y="489" width="647" height="506" frameX="-23" frameY="0" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0012" x="644" y="489" width="647" height="506" frameX="-23" frameY="0" frameWidth="674" frameHeight="506"/>
+	<SubTexture name="Berdly Idle0013" x="644" y="489" width="647" height="506" frameX="-23" frameY="0" frameWidth="674" frameHeight="506"/>
+</TextureAtlas>

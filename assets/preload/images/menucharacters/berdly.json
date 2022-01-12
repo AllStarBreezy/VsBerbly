@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_Berdly",
+	"position": [
+		-375,
+		35
+	],
+	"scale": 0.5,
+	"idle_anim": "Berdly Idle",
+	"confirm_anim": "Berdly Idle"
+}

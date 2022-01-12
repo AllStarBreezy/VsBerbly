@@ -1,0 +1,11 @@
+{
+	
+	"image": "Menu_kris-noelle",
+	"position": [
+		455,
+		120
+	],
+	"scale": 0.5,
+	"idle_anim": "Kris And Noelle Idle",
+	"confirm_anim": "Kris And Noelle Select"
+}

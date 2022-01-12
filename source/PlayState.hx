@@ -686,9 +686,6 @@ class PlayState extends MusicBeatState
 			add(halloweenWhite);
 		}
 
-		if(curStage == 'alley') {
-			remove(gfGroup);
-		}
 
 		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
