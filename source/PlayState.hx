@@ -1,5 +1,7 @@
 package;
 
+import openfl.Lib;
+import flixel.addons.display.FlxBackdrop;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -260,6 +262,10 @@ class PlayState extends MusicBeatState
 	
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
+
+	//Berdly
+	var battlebg:FlxBackdrop = new FlxBackdrop(Paths.image('birbBackground/battle', 'shared'), 0.9, 0.9, true, true);
+	var birdbg:BGSprite; 
 
 	override public function create()
 	{
@@ -665,8 +671,12 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'alley': //mordecai week
-				var bg:BGSprite = new BGSprite('birbBackground/AlleyBG', 1.55, 1.4, 0.9, 0.9);
-				add(bg);
+				birdbg = new BGSprite('birbBackground/AlleyBG', 1.55, 1.4, 0.9, 0.9);
+				battlebg.scale.set(1.5,1.5);
+				battlebg.setPosition(1.55, 1.4);
+				battlebg.alpha = 0;
+				add(birdbg);
+				add(battlebg);
 		}
 
 		if(isPixelStage) {
@@ -1632,23 +1642,25 @@ class PlayState extends MusicBeatState
 		}
 
 		var hptext:FlxText;
-		hptext = new FlxText(healthBar.x - 200,healthBar.y + 55,  "HP", 64);
-		hptext.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		hptext = new FlxText(healthBar.x - 57,healthBar.y -10,  "HP:", 32);
+		hptext.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		hptext.scrollFactor.set();
 		hptext.borderSize = 1.25;
 		if(ClientPrefs.downScroll) {
-			hptext.y = healthBar.y - 130;
+			hptext.y = healthBar.y - 20;
 		}
+		hptext.camera = camHUD;
 		add(hptext);
 
 		var youtext:FlxText;
-		youtext = new FlxText(140,timeBarBG.y - 136,  "YOU", 64);
-		youtext.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		youtext = new FlxText(timeBarBG.x - 144,timeBarBG.y ,  "YOU", 32);
+		youtext.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		youtext.scrollFactor.set();
+		youtext.camera = camHUD;
 		youtext.borderSize = 1.25;
 		youtext.alpha = 0;
 		if(ClientPrefs.downScroll) {
-			youtext.y = timeBarBG.y - 136;
+			youtext.y = timeBarBG.y - 143;
 		}
 		add(youtext);
 		FlxTween.tween(youtext, {alpha: 1}, 1, {ease: FlxEase.expoInOut});
@@ -1908,7 +1920,6 @@ class PlayState extends MusicBeatState
 				}
 				
 				opponentStrums.add(babyArrow);
-				trace('Berdly Note ' + babyArrow);
 			}
 
 			strumLineNotes.add(babyArrow);
@@ -2067,6 +2078,15 @@ class PlayState extends MusicBeatState
 		{
 			iconP1.swapOldIcon();
 		}*/
+
+		battlebg.velocity.set(-150, -150);
+		//battlebg.x -= 5 / (ClientPrefs.framerate / 60);
+		//battlebg.y -= 5 / (ClientPrefs.framerate / 60);
+		//DAD.X = 2529 
+		//DAD.Y = 1103
+		//BF.X = 950
+		//BF.Y = 1226
+		//DUET = 1700,1103
 
 		callOnLuas('onUpdate', [elapsed]);
 
@@ -2850,6 +2870,7 @@ class PlayState extends MusicBeatState
 					camFollow.y = val2;
 					isCameraOnForcedPos = true;
 				}
+			
 
 			case 'Alt Idle Animation':
 				var char:Character = dad;

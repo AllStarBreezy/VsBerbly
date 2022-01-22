@@ -110,6 +110,12 @@ class Note extends FlxSprite
 					noteSplashTexture = 'BirdSplashes';
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
+				case 'Alt Animation': 
+					reloadNote('Bird');
+					colorSwap.hue = 0;
+					noteSplashTexture = 'BirdSplashes';
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 				case 'Noelle': 
 					reloadNote('Nolleo');
 					noteSplashTexture = 'NolleoSplashes';
