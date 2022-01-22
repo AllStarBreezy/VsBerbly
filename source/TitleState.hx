@@ -206,6 +206,8 @@ class TitleState extends MusicBeatState
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
+	var bg2:FlxSprite;
+	var berdly:FlxSprite;
 
 	function startIntro()
 	{
@@ -250,10 +252,26 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		
 		
+		bg2 = new FlxSprite(0,0);
+		bg2.loadGraphic("assets/images/TitleBG.png", false, 1280, 720);
+	//	bg2.screenCenter(X);
+		bg2.antialiasing = true;
+		bg2.scrollFactor.set(0.9, 0.9);
+	//	bg2.scale.set(0.9, 0.9);
+		bg2.active = false;
+		add(bg2);
+
+		berdly = new FlxSprite(0,900);
+		berdly.loadGraphic("assets/images/TitleBerdly.png", false, 1280, 720);
+		berdly.antialiasing = true;
+		berdly.scrollFactor.set(0.9, 0.9);
+		berdly.active = false;
 		
 		
 
-		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
+		logoBl = new FlxSprite(-700, -30);
+		logoBl.scale.set(0.7,0.7);
+		logoBl.angle = 400;
 		
 		
 		#if (desktop && MODS_ALLOWED)
@@ -281,7 +299,7 @@ class TitleState extends MusicBeatState
 		// logoBl.color = FlxColor.BLACK;
 
 		swagShader = new ColorSwap();
-			gfDance = new FlxSprite(titleJSON.gfx, titleJSON.gfy);
+		gfDance = new FlxSprite(titleJSON.gfx, titleJSON.gfy);
 		
 		#if (desktop && MODS_ALLOWED)
 		var path = "mods/" + Paths.currentModDirectory + "/images/gfDanceTitle.png";
@@ -303,9 +321,10 @@ class TitleState extends MusicBeatState
 			gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 	
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
-		add(gfDance);
+		//add(gfDance);
 		gfDance.shader = swagShader.shader;
 		add(logoBl);
+		add(berdly);
 		//logoBl.shader = swagShader.shader;
 
 		titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);
@@ -617,13 +636,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('Berdly ');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('Quest ');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('2'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
@@ -638,7 +657,10 @@ class TitleState extends MusicBeatState
 		if (!skippedIntro)
 		{
 			remove(ngSpr);
-
+			FlxTween.tween(berdly, {y: 0}, 1, {ease: FlxEase.expoInOut});
+			FlxTween.tween(logoBl, {x: -100}, 1.5, {ease: FlxEase.quartOut});
+			FlxTween.tween(logoBl, {angle: 0}, 1.5, {ease: FlxEase.quartOut});
+			//FlxTween.tween(logoBl, {scale.x: 0}, 1.5, {ease: FlxEase.quartOut});
 			FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);
 			skippedIntro = true;

@@ -980,7 +980,7 @@ class PlayState extends MusicBeatState
 		add(healthBarBG);
 		if(ClientPrefs.downScroll) healthBarBG.y = 0.11 * FlxG.height;
 
-		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
+		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, LEFT_TO_RIGHT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 			'health', 0, 2);
 		healthBar.scrollFactor.set();
 		// healthBar
@@ -1631,6 +1631,33 @@ class PlayState extends MusicBeatState
 			vocals.pause();
 		}
 
+		var hptext:FlxText;
+		hptext = new FlxText(healthBar.x - 200,healthBar.y + 55,  "HP", 64);
+		hptext.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		hptext.scrollFactor.set();
+		hptext.borderSize = 1.25;
+		if(ClientPrefs.downScroll) {
+			hptext.y = healthBar.y - 130;
+		}
+		add(hptext);
+
+		var youtext:FlxText;
+		youtext = new FlxText(140,timeBarBG.y - 136,  "YOU", 64);
+		youtext.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		youtext.scrollFactor.set();
+		youtext.borderSize = 1.25;
+		youtext.alpha = 0;
+		if(ClientPrefs.downScroll) {
+			youtext.y = timeBarBG.y - 136;
+		}
+		add(youtext);
+		FlxTween.tween(youtext, {alpha: 1}, 1, {ease: FlxEase.expoInOut});
+		new FlxTimer().start(2, function(tmr:FlxTimer)
+			{
+				FlxTween.tween(youtext, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
+			});
+
+
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
 		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
@@ -1866,10 +1893,12 @@ class PlayState extends MusicBeatState
 
 			if (player == 1)
 			{
+				babyArrow.x -= 642;
 				playerStrums.add(babyArrow);
 			}
 			else
 			{
+				babyArrow.x += 642;
 				if(ClientPrefs.middleScroll)
 				{
 					babyArrow.x += 310;
@@ -1877,11 +1906,14 @@ class PlayState extends MusicBeatState
 						babyArrow.x += FlxG.width / 2 + 25;
 					}
 				}
+				
 				opponentStrums.add(babyArrow);
+				trace('Berdly Note ' + babyArrow);
 			}
 
 			strumLineNotes.add(babyArrow);
 			babyArrow.postAddedToGroup();
+
 		}
 	}
 
@@ -2233,8 +2265,19 @@ class PlayState extends MusicBeatState
 
 		var iconOffset:Int = 26;
 
-		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
-		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
+		
+
+		//healthBar.flipX = true;
+		var percent = healthBar.percent;
+		var opponentPercent = 100-healthBar.percent;
+
+		percent = 100-healthBar.percent;
+
+		iconP1.flipX = true;
+		iconP2.flipX = true;
+
+		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(percent, 0, 100, 100, 0) * 0.01) - iconOffset);
+		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(percent, 0, 100, 100, 0) * 0.01)) - (iconP2.width - iconOffset);
 
 		if (health > 2)
 			health = 2;

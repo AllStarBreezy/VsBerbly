@@ -264,7 +264,7 @@
 		350
 	],
 	"healthicon": "citygang",
-	"flip_x": true,
+	"flip_x": false,
 	"healthbar_colors": [
 		0,
 		162,
