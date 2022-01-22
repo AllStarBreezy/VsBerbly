@@ -3680,6 +3680,9 @@ class PlayState extends MusicBeatState
 		if(daNote.noteType == 'GF Sing') {
 			char = gf;
 		}
+		if(daNote.noteType == 'Kris' || daNote.noteType == 'KrisBot') {
+			char = gf;
+		}
 
 		if(char.hasMissAnimations)
 		{
@@ -3762,6 +3765,12 @@ class PlayState extends MusicBeatState
 			if(SONG.notes[curSection].gfSection || note.noteType == 'GF Sing') {
 				char = gf;
 			}
+			if(SONG.notes[curSection].gfSection || note.noteType == 'Kris' || note.noteType == 'KrisBot') {
+				char = gf;
+			}
+			if(note.noteType == 'Noelle' || note.noteType == 'NoelleBot') {
+				char = boyfriend;
+			}
 
 			char.playAnim(animToPlay, true);
 			char.holdTimer = 0;
@@ -3774,7 +3783,10 @@ class PlayState extends MusicBeatState
 		if(note.isSustainNote && !note.animation.curAnim.name.endsWith('end')) {
 			time += 0.15;
 		}
-		StrumPlayAnim(true, Std.int(Math.abs(note.noteData)) % 4, time);
+		if(note.noteType != 'KrisBot' && note.noteType != 'NoelleBot'){
+			StrumPlayAnim(true, Std.int(Math.abs(note.noteData)) % 4, time);
+		}
+		
 		note.hitByOpponent = true;
 
 		callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
@@ -3831,13 +3843,19 @@ class PlayState extends MusicBeatState
 	
 				var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))];
 
-				if(note.noteType == 'GF Sing') {
+				if(note.noteType == 'Kris' || note.noteType == 'KrisBot') {
 					gf.playAnim(animToPlay + daAlt, true);
 					gf.holdTimer = 0;
-				} else {
+				}else if(note.noteType == 'Noelle' || note.noteType == 'NoelleBot' ){
 					boyfriend.playAnim(animToPlay + daAlt, true);
 					boyfriend.holdTimer = 0;
 				}
+				else{
+					boyfriend.playAnim(animToPlay + daAlt, true);
+					boyfriend.holdTimer = 0;
+				}
+
+				 
 
 				if(note.noteType == 'Hey!') {
 					if(boyfriend.animOffsets.exists('hey')) {
@@ -3863,7 +3881,7 @@ class PlayState extends MusicBeatState
 			} else {
 				playerStrums.forEach(function(spr:StrumNote)
 				{
-					if (Math.abs(note.noteData) == spr.ID)
+					if (Math.abs(note.noteData) == spr.ID && note.noteType != 'KrisBot' && note.noteType != 'NoelleBot')
 					{
 						spr.playAnim('confirm', true);
 					}

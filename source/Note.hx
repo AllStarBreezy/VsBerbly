@@ -98,6 +98,34 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'Kris': 
+					reloadNote('Kris');
+					colorSwap.hue = 0;
+					noteSplashTexture = 'KrisSplashes';
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'Bird': 
+					reloadNote('Bird');
+					colorSwap.hue = 0;
+					noteSplashTexture = 'BirdSplashes';
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'Noelle': 
+					reloadNote('Nolleo');
+					noteSplashTexture = 'NolleoSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'KrisBot': 
+					reloadNote('No');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+				case 'NoelleBot':
+					reloadNote('No');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 				case 'No Animation':
 					noAnimation = true;
 			}
