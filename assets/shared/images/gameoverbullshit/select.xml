@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="select.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Choices Continue0000" x="5" y="5" width="486" height="61"/>
+	<SubTexture name="Choices Continue0001" x="496" y="5" width="486" height="61"/>
+	<SubTexture name="Choices Continue0002" x="496" y="71" width="486" height="61"/>
+	<SubTexture name="Choices Continue0003" x="496" y="137" width="486" height="61"/>
+	<SubTexture name="Choices Continue0004" x="5" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0005" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0006" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0007" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0008" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0009" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0010" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0011" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0012" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0013" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0014" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0015" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0016" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0017" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0018" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0019" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0020" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0021" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0022" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0023" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0024" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0025" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0026" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0027" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0028" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue0029" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0000" x="5" y="71" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0001" x="496" y="71" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0002" x="5" y="137" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0003" x="496" y="137" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0004" x="5" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0005" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0006" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0007" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0008" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0009" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0010" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0011" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0012" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0013" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0014" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0015" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0016" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0017" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0018" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0019" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0020" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0021" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0022" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0023" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0024" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0025" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0026" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0027" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0028" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Continue Mid0029" x="496" y="203" width="486" height="61"/>
+	<SubTexture name="Choices Fade0000" x="5" y="269" width="486" height="62"/>
+	<SubTexture name="Choices Fade0001" x="496" y="269" width="486" height="62"/>
+	<SubTexture name="Choices Fade0002" x="5" y="336" width="486" height="62"/>
+	<SubTexture name="Choices Fade0003" x="496" y="336" width="486" height="62"/>
+	<SubTexture name="Choices Fade0004" x="5" y="403" width="486" height="62"/>
+	<SubTexture name="Choices Fade0005" x="496" y="403" width="486" height="62"/>
+	<SubTexture name="Choices Fade0006" x="5" y="470" width="486" height="62"/>
+	<SubTexture name="Choices Fade0007" x="496" y="470" width="486" height="62"/>
+	<SubTexture name="Choices Giveup0000" x="5" y="537" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0001" x="496" y="537" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0002" x="5" y="603" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0003" x="496" y="603" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0004" x="5" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0005" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0006" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0007" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0008" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0009" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0010" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0011" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0012" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0013" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0014" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0015" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0016" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0017" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0018" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0019" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0020" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0021" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0022" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0023" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0024" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0025" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0026" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0027" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0028" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup0029" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0000" x="5" y="735" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0001" x="496" y="735" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0002" x="5" y="801" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0003" x="496" y="603" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0004" x="5" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0005" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0006" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0007" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0008" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0009" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0010" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0011" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0012" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0013" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0014" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0015" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0016" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0017" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0018" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0019" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0020" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0021" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0022" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0023" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0024" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0025" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0026" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0027" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0028" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Giveup Mid0029" x="496" y="669" width="486" height="61"/>
+	<SubTexture name="Choices Still0000" x="496" y="470" width="486" height="62"/>
+</TextureAtlas>

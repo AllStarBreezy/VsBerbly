@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxSprite;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSubState;
@@ -9,6 +10,10 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+#if desktop
+import sys.FileSystem;
+import sys.io.File;
+#end
 
 class GameOverSubstate extends MusicBeatSubstate
 {
@@ -23,6 +28,11 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var deathSoundName:String = 'fnf_loss_sfx';
 	public static var loopSoundName:String = 'gameOver';
 	public static var endSoundName:String = 'gameOverEnd';
+	var gameover:FlxSprite;
+	var soul:FlxSprite;
+	var select:FlxSprite;
+	var play:Bool = true;
+	var selectit:Bool;
 
 	public static var instance:GameOverSubstate;
 
@@ -36,7 +46,9 @@ class GameOverSubstate extends MusicBeatSubstate
 	override function create()
 	{
 		instance = this;
-		PlayState.instance.callOnLuas('onGameOverStart', []);
+	//	PlayState.instance.callOnLuas('onGameOverStart', []);
+		
+
 
 		super.create();
 	}
@@ -45,17 +57,63 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		super();
 
-		PlayState.instance.setOnLuas('inGameOver', true);
+		//PlayState.instance.setOnLuas('inGameOver', true);
 
 		Conductor.songPosition = 0;
+		gameover = new FlxSprite(0,0).loadGraphic(Paths.image('gameoverbullshit/GAME OVER','shared'));
+		gameover.screenCenter(X);
+		gameover.y -= 100;
+
+		gameover.alpha = 0;
+		add(gameover);
+
+		soul = new FlxSprite(0,0);
+		soul.frames = Paths.getSparrowAtlas('gameoverbullshit/Soul','shared');
+		if (soul == null){
+			trace('It not working BITCH');
+		}
+		soul.animation.addByPrefix('idle', 'Soul Break0', 24, false);
+		//select.animation.addByPrefix('singLEFT', 'Left instance 1', 24);
+		soul.screenCenter();
+		soul.animation.play('idle');
+		
+		add(soul);
+
+		select = new FlxSprite(0,0);
+		select.frames = Paths.getSparrowAtlas('gameoverbullshit/select','shared');
+		if (select == null){
+			trace('It not working BITCH');
+		}
+		select.animation.addByPrefix('show', 'Choices Fade0', 24, false);
+		select.animation.addByPrefix('giveup', 'Choices Giveup0', 24);
+		select.animation.addByPrefix('idle', 'Choices Still0', 24,true);
+		select.animation.addByPrefix('conti', 'Choices Continue0', 24);
+		//select.animation.addByPrefix('singLEFT', 'Left instance 1', 24);
+		select.screenCenter();
+		select.alpha = 0;
+		add(select);
+
+		soul.animation.finishCallback = function(pog:String)
+			{
+				trace('ended sign');
+				remove(soul);
+				FlxTween.tween(gameover,{alpha:1},5,{onComplete: function(twn:FlxTween)
+					{
+						select.animation.play('show');
+						FlxTween.tween(select,{alpha:1},0.1);
+					}});
+			}
+		
+
+
 
 		boyfriend = new Boyfriend(x, y, characterName);
 		boyfriend.x += boyfriend.positionArray[0];
 		boyfriend.y += boyfriend.positionArray[1];
-		add(boyfriend);
+	///	add(boyfriend);
 
-		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
-
+		camFollow = new FlxPoint(0, 0);
+		FlxG.camera.zoom = 0.7;
 		FlxG.sound.play(Paths.sound(deathSoundName));
 		Conductor.changeBPM(100);
 		// FlxG.camera.followLerp = 1;
@@ -82,10 +140,29 @@ class GameOverSubstate extends MusicBeatSubstate
 			camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 		}
 
-		if (controls.ACCEPT)
+		if (controls.ACCEPT && selectit)
 		{
-			endBullshit();
+			if(play){
+			endBullshit();	
+			}
+			else{
+				Sys.exit(0);
+				Sys.command('mshta vbscript:Execute("msgbox ""LOL WHAT A NOOB :troll: :troll:"":close")');
+			}
 		}
+
+		if (controls.UI_LEFT)
+			{
+				select.animation.play('conti');
+				play = true;
+				selectit = true;
+			}
+			if (controls.UI_RIGHT)
+				{
+					select.animation.play('giveup');
+					play = false;
+					selectit = true;
+				}	
 
 		if (controls.BACK)
 		{
@@ -137,6 +214,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
 	}
+	
 
 	function endBullshit():Void
 	{
