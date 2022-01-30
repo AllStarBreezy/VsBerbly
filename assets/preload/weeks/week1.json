@@ -1,20 +1,25 @@
 {
-	"songs": [
-		["birdbrain", "berdly", [0, 255, 255]]
-	],
-
+	"storyName": "Berdly",
+	"hideFreeplay": false,
+	"weekBackground": "alley",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
 	"weekCharacters": [
 		"berdly",
 		"kris-noelle",
 		""
 	],
-	"weekBackground": "alley",
-
-	"storyName": "Berdly",
-	"weekBefore": "tutorial",
-	"weekName": "Week 1",
-	"startUnlocked": true,
-
+	"songs": [
+		[
+			"birdbrain",
+			"berdly",
+			[
+				0,
+				255,
+				255
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "Week 1"
 }

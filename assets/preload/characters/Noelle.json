@@ -1,25 +1,24 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				178,
 				88
 			],
-			"anim": "dodge",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Dodge",
-			"indices": []
+			"anim": "dodge",
+			"indices": [],
+			"name": "Noelle Dodge"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				-128
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Down",
+			"anim": "singDOWN",
 			"indices": [
 				0,
 				1,
@@ -51,50 +50,50 @@
 				27,
 				28,
 				29
-			]
+			],
+			"name": "Noelle Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				20,
 				-128
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Down Miss",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Noelle Down Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				152,
 				-1
 			],
-			"anim": "hit",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Hit",
-			"indices": []
+			"anim": "hit",
+			"indices": [],
+			"name": "Noelle Hit"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Noelle Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				121,
 				-6
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Left",
+			"anim": "singLEFT",
 			"indices": [
 				0,
 				1,
@@ -126,39 +125,39 @@
 				27,
 				28,
 				29
-			]
+			],
+			"name": "Noelle Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				125,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "Noelle Left Miss",
-			"indices": []
+			"indices": [],
+			"name": "Noelle Left Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"fps": 24,
-			"name": "Noelle RIght Miss",
-			"indices": []
+			"indices": [],
+			"name": "Noelle RIght Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Right",
+			"anim": "singRIGHT",
 			"indices": [
 				0,
 				1,
@@ -190,28 +189,17 @@
 				27,
 				28,
 				29
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				67,
-				-1
 			],
-			"anim": "snowgrave",
-			"fps": 24,
-			"name": "Noelle Snowgrave",
-			"indices": []
+			"name": "Noelle Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				31,
 				12
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Up ",
+			"anim": "singUP",
 			"indices": [
 				0,
 				1,
@@ -243,29 +231,41 @@
 				27,
 				28,
 				29
-			]
+			],
+			"name": "Noelle Up "
 		},
 		{
-			"loop": false,
 			"offsets": [
 				34,
 				21
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Noelle Up Miss",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Noelle Up Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				24,
 				-258
 			],
-			"anim": "kill",
+			"indices": [],
 			"fps": 24,
-			"name": "Noelle killed him oh f",
-			"indices": []
+			"anim": "kill",
+			"loop": true,
+			"name": "Noelle killed him oh f"
+		},
+		{
+			"offsets": [
+				67,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "snowgrave",
+			"loop": true,
+			"name": "Noelle Snowgrave"
 		}
 	],
 	"no_antialiasing": false,

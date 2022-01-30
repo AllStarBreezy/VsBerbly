@@ -64,6 +64,7 @@
 	<SubTexture name="Berdly Defeated Anim0057" x="7426" y="0" width="414" height="452" frameX="-22" frameY="-109" frameWidth="907" frameHeight="701"/>
 	<SubTexture name="Berdly Defeated Anim0058" x="7426" y="0" width="414" height="452" frameX="-22" frameY="-109" frameWidth="907" frameHeight="701"/>
 	<SubTexture name="Berdly Defeated Anim0059" x="7426" y="0" width="414" height="452" frameX="-22" frameY="-109" frameWidth="907" frameHeight="701"/>
+	<SubTexture name="Berdly Defeat Loop0000" x="7426" y="0" width="414" height="452" frameX="-22" frameY="-109" frameWidth="907" frameHeight="701"/>
 	<SubTexture name="Berdly Down0000" x="0" y="1096" width="797" height="462" frameX="-12" frameY="-2" frameWidth="819" frameHeight="464"/>
 	<SubTexture name="Berdly Down0001" x="0" y="1096" width="797" height="462" frameX="-12" frameY="-2" frameWidth="819" frameHeight="464"/>
 	<SubTexture name="Berdly Down0002" x="797" y="1096" width="819" height="463" frameX="0" frameY="0" frameWidth="819" frameHeight="464"/>

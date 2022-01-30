@@ -28,6 +28,8 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var deathSoundName:String = 'fnf_loss_sfx';
 	public static var loopSoundName:String = 'gameOver';
 	public static var endSoundName:String = 'gameOverEnd';
+	public static var snowLoopSound:String = 'deltasnow';
+	public static var normalLoopSound:String = 'deltaOver';
 	var gameover:FlxSprite;
 	var soul:FlxSprite;
 	var select:FlxSprite;
@@ -41,6 +43,8 @@ class GameOverSubstate extends MusicBeatSubstate
 		deathSoundName = 'fnf_loss_sfx';
 		loopSoundName = 'gameOver';
 		endSoundName = 'gameOverEnd';
+		snowLoopSound = 'deltasnow';
+		normalLoopSound = 'deltaover';
 	}
 
 	override function create()
@@ -95,6 +99,14 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		soul.animation.finishCallback = function(pog:String)
 			{
+				if (!PlayState.krisOn)
+					{
+						FlxG.sound.play(Paths.sound(snowLoopSound));
+					}
+					else
+					{
+						FlxG.sound.play(Paths.sound(normalLoopSound));
+					}
 				trace('ended sign');
 				remove(soul);
 				FlxTween.tween(gameover,{alpha:1},5,{onComplete: function(twn:FlxTween)
@@ -144,8 +156,10 @@ class GameOverSubstate extends MusicBeatSubstate
 		{
 			if(play){
 			endBullshit();	
+			FlxG.sound.play(Paths.sound('underselect'));
 			}
 			else{
+				FlxG.sound.play(Paths.sound('underselect'));
 				Sys.exit(0);
 				Sys.command('mshta vbscript:Execute("msgbox ""LOL WHAT A NOOB :troll: :troll:"":close")');
 			}
@@ -156,12 +170,14 @@ class GameOverSubstate extends MusicBeatSubstate
 				select.animation.play('conti');
 				play = true;
 				selectit = true;
+				FlxG.sound.play(Paths.sound('underhover'));
 			}
 			if (controls.UI_RIGHT)
 				{
 					select.animation.play('giveup');
 					play = false;
 					selectit = true;
+					FlxG.sound.play(Paths.sound('underhover'));
 				}	
 
 		if (controls.BACK)
@@ -212,7 +228,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	function coolStartDeath(?volume:Float = 1):Void
 	{
-		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
+		trace("Fuck you");
 	}
 	
 
@@ -223,7 +239,6 @@ class GameOverSubstate extends MusicBeatSubstate
 			isEnding = true;
 			boyfriend.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
-			FlxG.sound.play(Paths.music(endSoundName));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)
 			{
 				FlxG.camera.fade(FlxColor.BLACK, 2, false, function()

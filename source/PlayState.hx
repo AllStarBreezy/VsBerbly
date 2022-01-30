@@ -175,6 +175,10 @@ class PlayState extends MusicBeatState
 
 	var botplaySine:Float = 0;
 	var botplayTxt:FlxText;
+	
+	//Snowgrave Shit
+	public var endingCount:Float = 0;
+	public static var krisOn:Bool = false;
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
@@ -2088,6 +2092,8 @@ class PlayState extends MusicBeatState
 		//BF.Y = 1226
 		//DUET = 1700,1103
 
+		
+
 		callOnLuas('onUpdate', [elapsed]);
 
 		switch (curStage)
@@ -2702,6 +2708,39 @@ class PlayState extends MusicBeatState
 				if(Math.isNaN(value)) value = 1;
 				gfSpeed = value;
 
+			case 'Snow Confirm':
+				if (endingCount >= 60 && !krisOn)
+					{
+						dad.playAnim('aboutToDie', true);
+						dad.specialAnim = true;
+						gf.playAnim('singRIGHT', true);
+						gf.specialAnim = true;
+						boyfriend.playAnim('snowgrave', true);
+						boyfriend.specialAnim = true;
+						new FlxTimer().start(1.0, function(tmr:FlxTimer)
+						{
+							dad.playAnim('defeat', true);
+							dad.specialAnim = true;
+							new FlxTimer().start(2.4, function(tmr:FlxTimer)
+								{
+									FlxG.camera.flash(FlxColor.WHITE, 1);
+									dad.playAnim('dead', true);
+									dad.specialAnim = true;
+									boyfriend.playAnim('kill', true);
+									boyfriend.specialAnim = true;
+								});
+							});
+					}
+					else
+					{
+						dad.playAnim('defeat', true);
+						dad.specialAnim = true;
+						new FlxTimer().start(2.4, function(tmr:FlxTimer)
+							{
+								dad.playAnim('defeatLoop', true);
+								dad.specialAnim = true;
+							});
+					}
 			case 'Blammed Lights':
 				var lightId:Int = Std.parseInt(value1);
 				if(Math.isNaN(lightId)) lightId = 0;
@@ -3822,6 +3861,8 @@ class PlayState extends MusicBeatState
 
 	function goodNoteHit(note:Note):Void
 	{
+		var addd:Float = 1;
+
 		if (!note.wasGoodHit)
 		{
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
@@ -3837,8 +3878,9 @@ class PlayState extends MusicBeatState
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
+							trace("RESET = True");
 						}
-				}
+					}
 				
 				note.wasGoodHit = true;
 				if (!note.isSustainNote)
@@ -3864,10 +3906,19 @@ class PlayState extends MusicBeatState
 	
 				var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))];
 
-				if(note.noteType == 'Kris' || note.noteType == 'KrisBot') {
+				if(note.noteType == 'Kris'){
 					gf.playAnim(animToPlay + daAlt, true);
 					gf.holdTimer = 0;
-				}else if(note.noteType == 'Noelle' || note.noteType == 'NoelleBot' ){
+					krisOn = true;
+					trace("Fuck you no Snowgrave ending!");
+				}else if (note.noteType == 'KrisBot'){ 
+					gf.playAnim(animToPlay + daAlt, true);
+					gf.holdTimer = 0;
+				}else if(note.noteType == 'Noelle'){
+					boyfriend.playAnim(animToPlay + daAlt, true);
+					boyfriend.holdTimer = 0;
+					endingCount += addd * 2;
+				}else if(note.noteType == 'NoelleBot'){
 					boyfriend.playAnim(animToPlay + daAlt, true);
 					boyfriend.holdTimer = 0;
 				}
