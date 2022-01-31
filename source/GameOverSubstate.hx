@@ -99,14 +99,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		soul.animation.finishCallback = function(pog:String)
 			{
-				if (!PlayState.krisOn)
-					{
-						FlxG.sound.play(Paths.sound(snowLoopSound));
-					}
-					else
-					{
-						FlxG.sound.play(Paths.sound(normalLoopSound));
-					}
+				FlxG.sound.play(Paths.sound(normalLoopSound));
 				trace('ended sign');
 				remove(soul);
 				FlxTween.tween(gameover,{alpha:1},5,{onComplete: function(twn:FlxTween)

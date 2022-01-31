@@ -178,7 +178,7 @@ class PlayState extends MusicBeatState
 	
 	//Snowgrave Shit
 	public var endingCount:Float = 0;
-	public static var krisOn:Bool = false;
+	var krisOn:Bool = false;
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
