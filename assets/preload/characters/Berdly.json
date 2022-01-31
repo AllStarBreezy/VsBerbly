@@ -1,24 +1,25 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-104,
 				-4
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "defeat",
-			"indices": [],
-			"name": "Berdly Defeated Anim"
+			"fps": 24,
+			"name": "Berdly Defeated Anim",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-123,
 				-41
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Berdly Down",
 			"indices": [
 				0,
 				1,
@@ -50,39 +51,39 @@
 				27,
 				28,
 				29
-			],
-			"name": "Berdly Down"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-123,
 				-46
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN-alt",
-			"indices": [],
-			"name": "Berdly Down Alt"
+			"fps": 24,
+			"name": "Berdly Down Alt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Berdly Idle"
+			"fps": 24,
+			"name": "Berdly Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-100,
 				320
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Berdly Left",
 			"indices": [
 				0,
 				1,
@@ -114,28 +115,28 @@
 				27,
 				28,
 				29
-			],
-			"name": "Berdly Left"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-100,
 				320
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "Berdly Left Alt"
+			"fps": 24,
+			"name": "Berdly Left Alt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-95,
 				20
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Berdly Right",
 			"indices": [
 				0,
 				1,
@@ -167,28 +168,28 @@
 				27,
 				28,
 				29
-			],
-			"name": "Berdly Right"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-95,
 				23
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"indices": [],
-			"name": "Berdly Right Alt"
+			"fps": 24,
+			"name": "Berdly Right Alt",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-130,
 				162
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
+			"fps": 24,
+			"name": "Berdly Up",
 			"indices": [
 				0,
 				1,
@@ -220,41 +221,51 @@
 				27,
 				28,
 				29
-			],
-			"name": "Berdly Up"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-130,
 				162
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP-alt",
-			"indices": [],
-			"name": "Berdly Up Alt"
+			"fps": 24,
+			"name": "Berdly Up Alt",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-23,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "aboutToDie",
-			"loop": true,
-			"name": "Berdly Aboiut to die"
+			"fps": 24,
+			"name": "Berdly Aboiut to die",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-112,
 				305
 			],
+			"anim": "dead",
+			"fps": 24,
+			"name": "Berdly Dead",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-104,
+				-4
+			],
 			"indices": [],
 			"fps": 24,
-			"anim": "dead",
+			"anim": "defeatLoop",
 			"loop": true,
-			"name": "Berdly Dead"
+			"name": "Berdly Defeat Loop"
 		}
 	],
 	"no_antialiasing": false,
