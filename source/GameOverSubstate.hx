@@ -89,9 +89,9 @@ class GameOverSubstate extends MusicBeatSubstate
 			trace('It not working BITCH');
 		}
 		select.animation.addByPrefix('show', 'Choices Fade0', 24, false);
-		select.animation.addByPrefix('giveup', 'Choices Giveup0', 24);
+		select.animation.addByPrefix('giveup', 'Choices Giveup0', 24,false);
 		select.animation.addByPrefix('idle', 'Choices Still0', 24,true);
-		select.animation.addByPrefix('conti', 'Choices Continue0', 24);
+		select.animation.addByPrefix('conti', 'Choices Continue0', 24,false);
 		//select.animation.addByPrefix('singLEFT', 'Left instance 1', 24);
 		select.screenCenter();
 		select.alpha = 0;
