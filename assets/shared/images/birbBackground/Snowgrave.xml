@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Snowgrave.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Snow Loop0000" x="10" y="10" width="2425" height="2143" frameX="0" frameY="0" frameWidth="2622" frameHeight="2340"/>
+	<SubTexture name="Snow Loop0001" x="2445" y="10" width="2425" height="2143" frameX="-33" frameY="-33" frameWidth="2622" frameHeight="2340"/>
+	<SubTexture name="Snow Loop0002" x="4880" y="10" width="2424" height="2143" frameX="-66" frameY="-66" frameWidth="2622" frameHeight="2340"/>
+	<SubTexture name="Snow Loop0003" x="10" y="2163" width="2424" height="2143" frameX="-99" frameY="-99" frameWidth="2622" frameHeight="2340"/>
+	<SubTexture name="Snow Loop0004" x="2444" y="2163" width="2425" height="2143" frameX="-131" frameY="-132" frameWidth="2622" frameHeight="2340"/>
+	<SubTexture name="Snow Loop0005" x="4879" y="2163" width="2425" height="2143" frameX="-164" frameY="-164" frameWidth="2622" frameHeight="2340"/>
+	<SubTexture name="Snow Loop0006" x="10" y="4316" width="2425" height="2143" frameX="-197" frameY="-197" frameWidth="2622" frameHeight="2340"/>
+</TextureAtlas>

@@ -180,6 +180,7 @@ class PlayState extends MusicBeatState
 	public var endingCount:Float = 0;
 	var krisOn:Bool = false;
 	var snow:BGSprite;
+	var snowFall:BGSprite;
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
@@ -271,7 +272,7 @@ class PlayState extends MusicBeatState
 	//Berdly
 	var battlebg:FlxBackdrop = new FlxBackdrop(Paths.image('birbBackground/battle', 'shared'), 0.9, 0.9, true, true);
 	var birdbg:BGSprite; 
-
+	
 	override public function create()
 	{
 		#if MODS_ALLOWED
@@ -678,13 +679,17 @@ class PlayState extends MusicBeatState
 			case 'alley': //mordecai week
 				snow = new BGSprite('birbBackground/SnowEffect', 0, 0, 0.9, 0.9);
 				snow.alpha = 0;
+				snowFall = new BGSprite('birbBackground/Snowgrave', -350, -420, 1, 1, ['Snow Loop'], true);
+				snowFall.alpha = 0;
 				snow.cameras = [camHUD];
+				snowFall.cameras = [camHUD];
 				birdbg = new BGSprite('birbBackground/AlleyBG', 1.55, 1.4, 0.9, 0.9);
 				battlebg.scale.set(1.5,1.5);
-				battlebg.setPosition(1.55, 1.4);
+				battlebg.setPosition(-200.55, 200.4);
 				battlebg.alpha = 0;
 				add(birdbg);
 				add(battlebg);
+				add(snowFall);
 				add(snow);
 		}
 
@@ -2727,11 +2732,13 @@ class PlayState extends MusicBeatState
 						new FlxTimer().start(1.0, function(tmr:FlxTimer)
 						{
 							FlxTween.tween(snow, {alpha: 1}, 1.0, {ease: FlxEase.expoInOut});
+							FlxTween.tween(snowFall, {alpha: 1}, 1.0, {ease: FlxEase.expoInOut});
 							dad.playAnim('aboutToDie', true);
 							dad.specialAnim = true;
 							new FlxTimer().start(3.4, function(tmr:FlxTimer)
 								{
 									FlxTween.tween(snow, {alpha: 0.6}, 1.0, {ease: FlxEase.expoInOut});
+									FlxTween.tween(snowFall, {alpha: 0}, 1.0, {ease: FlxEase.expoInOut});
 									FlxG.camera.flash(FlxColor.WHITE, 1);
 									dad.playAnim('dead', true);
 									dad.specialAnim = true;
