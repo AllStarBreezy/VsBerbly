@@ -179,6 +179,7 @@ class PlayState extends MusicBeatState
 	//Snowgrave Shit
 	public var endingCount:Float = 0;
 	var krisOn:Bool = false;
+	var snow:BGSprite;
 
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
@@ -675,12 +676,16 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'alley': //mordecai week
+				snow = new BGSprite('birbBackground/SnowEffect', 0, 0, 0.9, 0.9);
+				snow.alpha = 0;
+				snow.cameras = [camHUD];
 				birdbg = new BGSprite('birbBackground/AlleyBG', 1.55, 1.4, 0.9, 0.9);
 				battlebg.scale.set(1.5,1.5);
 				battlebg.setPosition(1.55, 1.4);
 				battlebg.alpha = 0;
 				add(birdbg);
 				add(battlebg);
+				add(snow);
 		}
 
 		if(isPixelStage) {
@@ -2713,18 +2718,20 @@ class PlayState extends MusicBeatState
 			case 'Snow Confirm':
 				if (endingCount >= 60 && !krisOn)
 					{
-						dad.playAnim('aboutToDie', true);
 						dad.specialAnim = true;
 						gf.playAnim('singRIGHT', true);
 						gf.specialAnim = true;
 						boyfriend.playAnim('snowgrave', true);
+						FlxG.sound.play(Paths.sound('ripberd'));
 						boyfriend.specialAnim = true;
 						new FlxTimer().start(1.0, function(tmr:FlxTimer)
 						{
-							dad.playAnim('defeat', true);
+							FlxTween.tween(snow, {alpha: 1}, 1.0, {ease: FlxEase.expoInOut});
+							dad.playAnim('aboutToDie', true);
 							dad.specialAnim = true;
-							new FlxTimer().start(2.4, function(tmr:FlxTimer)
+							new FlxTimer().start(3.4, function(tmr:FlxTimer)
 								{
+									FlxTween.tween(snow, {alpha: 0.6}, 1.0, {ease: FlxEase.expoInOut});
 									FlxG.camera.flash(FlxColor.WHITE, 1);
 									dad.playAnim('dead', true);
 									dad.specialAnim = true;
