@@ -37,7 +37,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("In the Credits", null);
 		#end
 
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
@@ -66,6 +66,26 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Berdly Quest 2 TEAM'],
+			['Humbay',		'humbay',		'Director/Artist',						'https://twitter.com/humbaynoob',	'ed1a3d'],
+			['Taeskull',			'taeskull',		'Composer',					'https://twitter.com/taeskull27',		'8892b3'],
+			['Orbyy',			'orby',			'Charters',				'https://twitter.com/OrbyyNew',			'475994'],
+			['Aussi',			'aussi',			'Charters',				'https://twitter.com/SsieAu',			'fa78f6'],
+			['Taeyai',			'taeyai',			'Coders',				'https://twitter.com/Taeyai_',			'34ebcf'],
+			['Breezy',			'breezy',			'Coders',				'https://twitter.com/BreezyMelee',			'b578de'],
+			['Espresso',			'espreso',			'Coders',				'https://twitter.com/Ristretto_Spice',			'b3ac79'],
+			['Recd',			'recd',			'Voice Actors',				'https://twitter.com/RecDTRH',			'e32b53'],
+			['Smol',			'smol',			'Voice Actors',				'https://twitter.com/smolien_owo',			'dd2be3'],
+			['Bino',			'bino',			'Chromatic editor',				'https://twitter.com/Bluetophatguy',			'2f60d4'],
+			[''],
+			['SPECIAL THANKS'],
+			['Clowfoe ',		'clow',		'',						'https://twitter.com/Clowfoe',	'ed1a3d'],
+			['Julien  ',		'no',		'',						'https://twitter.com/itjulienn',	'ed1a3d'],
+			['Gonk  ',		'no',		'',						'https://twitter.com/StupidGoatMan',	'ed1a3d'],
+			['Fabs  ',		'no',		'',						'https://twitter.com/SGIObama',	'ed1a3d'],
+			['Keoni  ',		'no',		'',						'https://twitter.com/AmongUsVore',	'ed1a3d'],
+			['Wyndleaf  ',		'no',		'',						'https://twitter.com/Wyndleaf',	'ed1a3d'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'FFDD33'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
