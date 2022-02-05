@@ -26,6 +26,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	public static var characterName:String = 'bf';
 	public static var deathSoundName:String = 'fnf_loss_sfx';
+	public static var snowSoundName:String = 'sbreakk';
 	public static var loopSoundName:String = 'gameOver';
 	public static var endSoundName:String = 'gameOverEnd';
 	public static var snowLoopSound:String = 'deltasnow';
@@ -43,6 +44,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		deathSoundName = 'fnf_loss_sfx';
 		loopSoundName = 'gameOver';
 		endSoundName = 'gameOverEnd';
+		snowSoundName = 'sbreakk';
 		snowLoopSound = 'deltasnow';
 		normalLoopSound = 'deltaover';
 	}
@@ -119,7 +121,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		camFollow = new FlxPoint(0, 0);
 		FlxG.camera.zoom = 0.7;
-		FlxG.sound.play(Paths.sound(deathSoundName));
+		FlxG.sound.play(Paths.sound(snowSoundName));
 		Conductor.changeBPM(100);
 		// FlxG.camera.followLerp = 1;
 		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
@@ -153,8 +155,9 @@ class GameOverSubstate extends MusicBeatSubstate
 			}
 			else{
 				FlxG.sound.play(Paths.sound('underselect'));
-				Sys.exit(0);
 				Sys.command('mshta vbscript:Execute("msgbox ""LOL WHAT A NOOB :troll: :troll:"":close")');
+				Sys.exit(0);
+				
 			}
 		}
 

@@ -1,7 +1,7 @@
 {
 	"storyName": "Berdly",
 	"hideFreeplay": false,
-	"weekBackground": "alley",
+	"weekBackground": "Alley",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
 	"weekCharacters": [
