@@ -2708,6 +2708,8 @@ class PlayState extends MusicBeatState
 				if(Math.isNaN(value)) value = 1;
 				gfSpeed = value;
 
+			case 'Ending Reset':
+				krisOn = false;
 			case 'Snow Confirm':
 				if (endingCount >= 60 && !krisOn)
 					{
