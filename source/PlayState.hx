@@ -1921,18 +1921,25 @@ class PlayState extends MusicBeatState
 
 			if (player == 1)
 			{
-				babyArrow.x -= 642;
+				if(!ClientPrefs.middleScroll)
+					{
+						babyArrow.x -= 642;
+					}
+				
 				playerStrums.add(babyArrow);
 			}
 			else
 			{
-				babyArrow.x += 642;
+				
 				if(ClientPrefs.middleScroll)
 				{
 					babyArrow.x += 310;
 					if(i > 1) { //Up and Right
 						babyArrow.x += FlxG.width / 2 + 25;
 					}
+				}
+				else{
+					babyArrow.x += 642;
 				}
 				
 				opponentStrums.add(babyArrow);
