@@ -272,7 +272,7 @@ class PlayState extends MusicBeatState
 	private var keysArray:Array<Dynamic>;
 
 	//Berdly
-	var battlebg:FlxBackdrop = new FlxBackdrop(Paths.image('birbBackground/battle', 'shared'), 0.9, 0.9, true, true);
+	var battlebg:FlxBackdrop;
 	var birdbg:BGSprite; 
 	
 	override public function create()
@@ -686,11 +686,16 @@ class PlayState extends MusicBeatState
 				snow.cameras = [camHUD];
 				snowFall.cameras = [camHUD];
 				birdbg = new BGSprite('birbBackground/AlleyBG', 1.55, 1.4, 0.9, 0.9);
+				battlebg = new FlxBackdrop(Paths.image('birbBackground/battle', 'shared'), 0.9, 0.9, true, true);
 				battlebg.scale.set(1.5,1.5);
 				battlebg.setPosition(-200.55, 200.4);
 				battlebg.alpha = 0;
-				add(birdbg);
-				add(battlebg);
+				if(!ClientPrefs.lowQuality) {
+				
+					add(birdbg);
+					add(battlebg);
+				}
+				
 				add(snowFall);
 				add(snow);
 		}
